@@ -1,7 +1,7 @@
 use strict;
 $|=1;
 
-my $limit = 10; # Ask for a number between 1 and this number
+my $limit = 100; # Ask for a number between 1 and this number
 
 my $number_of_cards = length(dec2bin($limit));
 
