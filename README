@@ -1,0 +1,22 @@
+This generates the numbers to print on cards to do a magic trick.  
+The trick goes something like this:
+
+Lay 7 cards out on a table.  The cards are covered with numbers. 
+Ask a volunteer for a number between 1 and 100.  Then ask the 
+volunteer to indicate which cards that number appears on.
+
+The first number on each card is a power of two - 1, 2, 4, 8,
+and so on.  Add those numbers together for each card that the
+volunteer indicates.  The sum is the number the volunteer is
+thinking of.
+
+How it works: Basically, you are treating the cards the volunteer
+indicates as 1's and the not-indicated cards as 0's.  This gives
+you the binary representation of the number he's thinking of.  
+By adding the powers of two for the 1's, you are converting the
+binary number to decimal.
+
+Now, proclaim the number in your most theatrical magician voice.  
+Don't worry that people might think that voice is dorky -- you 
+are already running a perl script to help with a magic trick that 
+involves converting binary to decimal.  The dork ship has sailed.
